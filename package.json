@@ -2,6 +2,24 @@
   "dependencies": {
     "@tailwindcss/cli": "^4.1.16",
     "tailwindcss": "^4.1.16"
-  }
-  
+  },
+  "name": "cart-system",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tailwind": "npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ReynanEstobo/Cart-System.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ReynanEstobo/Cart-System/issues"
+  },
+  "homepage": "https://github.com/ReynanEstobo/Cart-System#readme"
 }
